@@ -29,5 +29,18 @@ async function login(email, password) {
     return await res.json();
 }
 
+async function getTrips() {
+    const res = await fetch(host + '/trips', {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+    return await res.json();
+}
 
-export { register, login };
+
+
+
+
+export { register, login, getTrips,};

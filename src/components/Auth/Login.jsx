@@ -38,6 +38,7 @@ class Login extends Component {
         localStorage.setItem('token', res.token);
         localStorage.setItem('username', res.user.name);
         toastr.success('Login Successful');
+        this.props.history.push(`/trips`);
    
     }
 
