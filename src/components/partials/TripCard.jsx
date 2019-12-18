@@ -8,7 +8,7 @@ class TripCard extends Component {
 
 
     }
-
+    
     render(){
         return(
             <Link to={`/trips/${this.props.props._id}`} className="added-train">

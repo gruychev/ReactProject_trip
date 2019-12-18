@@ -36,7 +36,6 @@ export default class HomePage extends Component {
         this.setState({trips: tripsArray});
 
     }
-
     
    
     render() {

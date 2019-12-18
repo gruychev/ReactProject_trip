@@ -9,6 +9,11 @@ import Header from './components/common/Header';
 import RegisterPage from './components/Auth/Register';
 import LoginPage from './components/Auth/Login';
 import HomePage from './components/HomePage/HomePage';
+import TripDetails from './components/Details/TripDetails';
+import ListAllTickets from './components/ListAllTickets/ListAllTickets';
+//import Profile from './components/MyTickets/Profile';
+import PrivateRoute from './api/PrivateRoute'
+
 
 
 
@@ -37,6 +42,8 @@ class App extends Component {
                     <Route exact path="/trips" component={HomePage} />
                     <Route path="/login" component={LoginPage} />
                     <Route path="/register" component={RegisterPage} />
+                    <PrivateRoute path="/trips/:id" component={TripDetails} />
+                    <PrivateRoute path="/cart" component={ListAllTickets} />
 
                   
                 </Switch>
