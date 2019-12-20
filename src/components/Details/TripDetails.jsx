@@ -6,7 +6,7 @@ import Sheffield from '../../img/Sheffield.png'
 import Ticket from '../partials/Ticket.jsx'
 
 
-class MonthlyBalance extends Component {
+class TripDetails extends Component {
     constructor(props) {
         super(props);
 
@@ -35,7 +35,6 @@ class MonthlyBalance extends Component {
 
     async onSubmitHandler(e) {
         e.preventDefault();
-
 
     }
 
@@ -76,7 +75,7 @@ class MonthlyBalance extends Component {
                     <div className="ticket-area-right">
                         <h3>{this.state.destination}</h3>
                         <div>from {this.state.origin}</div>
-                        <div className="data-and-time">Flight {this.state.time}</div>
+                        <div className="data-and-time">Time {this.state.time}</div>
                         <div className="data-and-time">arrives {this.state.arrives}</div>
                         <div className="data-and-time">duration {this.state.duration}</div>
                     </div>
@@ -91,11 +90,11 @@ class MonthlyBalance extends Component {
                 )}
 
 
-                <footer>SoftUni RailWays</footer>
+                <footer>RailWays</footer>
             </main>
         );
     }
 
 }
 
-export default withRouter(MonthlyBalance)
+export default withRouter(TripDetails)

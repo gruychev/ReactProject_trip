@@ -54,6 +54,8 @@ export default class HomePage extends Component {
                     }
 
                 </section>
+
+                <footer>RailWays</footer>
                 
             </main>
         );

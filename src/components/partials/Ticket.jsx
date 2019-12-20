@@ -46,9 +46,6 @@ class Ticket extends Component {
             toastr.success('Tickets added to cart')
         }
 
-
-
-
     }
 
 

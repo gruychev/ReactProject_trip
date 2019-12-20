@@ -69,6 +69,7 @@ class Login extends Component {
                                 value="Login"
                             />
                     </form>
+                    <footer>RailWays</footer>
                 
                 </main>
 

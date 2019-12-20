@@ -86,6 +86,7 @@ class RegisterPage extends Component {
                             />
                         <input type="submit" className="register" value="Register"/>
                     </form>
+                    <footer>RailWays</footer>
                  
                 </main>
         );

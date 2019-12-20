@@ -13,7 +13,7 @@
         },
         "9fa23c73-ba0e-d271-f30e-44d66aa54016": {
             "origin": "Sofia",
-            "destination": "Plovdiv",
+            "destination": "Pleven",
             "time": "14:30",
             "arrives": "17:00",
             "duration": "2:30",
@@ -24,21 +24,23 @@
         },
         "ba955f48-fa36-16e3-c818-c0192b72e540": {
             "origin": "Sofia",
-            "destination": "Plovdiv",
+            "destination": "Karlovo",
             "time": "21:00",
             "arrives": "23:15",
             "duration": "2:15",
             "tickets": {
+                "firstClass": 11.30,
                 "secondClass": 9.00
             }
         },
         "b4f22c0f-6304-28bb-90af-8d00d6d4073b": {
-            "origin": "Plovdiv",
-            "destination": "Sofia",
+            "origin": "Sofia",
+            "destination": "Varna",
             "time": "06:15",
             "arrives": "08:50",
-            "duration": "2:35",
+            "duration": "6:35",
             "tickets": {
+                "firstClass": 11.30,
                 "secondClass": 9.00
             }
         },
@@ -96,28 +98,7 @@
                 "firstClass": 26.00,
                 "secondClass": 20.90
             }
-        },
-        "d3fbc105-47f8-fd56-258e-2a3a318f2eb8": {
-            "origin": "Plovdiv",
-            "destination": "Burgas",
-            "time": "08:55",
-            "arrives": "13:05",
-            "duration": "4:10",
-            "tickets": {
-                "firstClass": 18.80,
-                "secondClass": 15.10
-            }
-        },
-        "a96d3157-516b-fe65-1678-ba85e7cec6af": {
-            "origin": "Burgas",
-            "destination": "Plovdiv",
-            "time": "14:30",
-            "arrives": "18:50",
-            "duration": "4:20",
-            "tickets": {
-                "firstClass": 18.80,
-                "secondClass": 15.10
-            }
+        
         }
     }
 }

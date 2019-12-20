@@ -11,7 +11,7 @@ class MyCart extends Component {
         this.state = {
             destination: '',
             origin: ''
-            
+           
         };
 
 
@@ -58,11 +58,16 @@ class MyCart extends Component {
                 <div className="right-ticket-container">
                     <h2>{this.props.props.destination}</h2>
                     <p>from {this.props.props.origin}</p>
-                    <p>Flight {this.props.props.time}</p>
-                    <p>arrives {this.props.props.time} (duration {this.props.props.duration})</p>
+                    <p>Time {this.props.props.time}</p>
+              
+                   
+                    <p>arrives {this.props.props.arrives} (duration {this.props.props.duration})</p>
+          
                     <p>
                     </p><div>
-                    <span className="number-of-tickets">{this.props.props.count}</span>
+                    <span className="number-of-tickets">{this.props.props.count}</span>                 
+                   
+
                     <a onClick={()=>{this.deleteCurrentTicket(this.props.props._id)}} className="remove">REMOVE</a>
                 </div>
                 </div>
